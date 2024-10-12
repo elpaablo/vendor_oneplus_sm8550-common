@@ -2338,7 +2338,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.qesdhal@1.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.2.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.qesdhal@1.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.3-impl.so \
     vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.qesdhal@1.3.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdhal@1.3.so \
-    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.qesdsys-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdsys-V3-ndk.so
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/vendor.qti.qesdsys-V3-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.qesdsys-V3-ndk.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/android.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@1.0.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/android.hardware.thermal@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.thermal@2.0.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/libbase_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase_shim.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/libcodec2_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_shim.so \
+    vendor/oneplus/sm8550-common/proprietary/vendor/lib64/libhidlbase_shim.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhidlbase_shim.so
 
 PRODUCT_PACKAGES += \
     libagm \
